@@ -1,0 +1,133 @@
+Person_ID,Gender,Age,Occupation,Sleep Duration,Quality of Sleep,Physical Activity Level,Stress Level,BMI Category,Heart Rate,Daily Steps,Sleep Disorder,Systolic_BP,Diastolic_BP
+0,Male,27,STEM_Education,6.1,6,42,6,Above Normal,77,4200,No,126,83
+1,Male,28,Healthcare,6.2,6,60,8,Normal,75,10000,No,125,80
+3,Male,28,Corporate_Sales,5.9,4,30,8,Above Normal,85,3000,Sleep Apnea,140,90
+5,Male,28,STEM_Education,5.9,4,30,8,Above Normal,85,3000,Insomnia,140,90
+6,Male,29,STEM_Education,6.3,6,40,7,Above Normal,82,3500,Insomnia,140,90
+7,Male,29,Healthcare,7.8,7,75,6,Normal,70,8000,No,120,80
+10,Male,29,Healthcare,6.1,6,30,8,Normal,70,8000,No,120,80
+13,Male,29,Healthcare,6.0,6,30,8,Normal,70,8000,No,120,80
+16,Female,29,Healthcare,6.5,5,40,7,Normal,80,4000,Sleep Apnea,132,87
+17,Male,29,Healthcare,6.0,6,30,8,Normal,70,8000,Sleep Apnea,120,80
+18,Female,29,Healthcare,6.5,5,40,7,Normal,80,4000,Insomnia,132,87
+19,Male,30,Healthcare,7.6,7,75,6,Normal,70,8000,No,120,80
+20,Male,30,Healthcare,7.7,7,75,6,Normal,70,8000,No,120,80
+24,Male,30,Healthcare,7.8,7,75,6,Normal,70,8000,No,120,80
+25,Male,30,Healthcare,7.9,7,75,6,Normal,70,8000,No,120,80
+30,Female,30,Healthcare,6.4,5,35,7,Normal,78,4100,Sleep Apnea,130,86
+31,Female,30,Healthcare,6.4,5,35,7,Normal,78,4100,Insomnia,130,86
+32,Female,31,Healthcare,7.9,8,75,4,Normal,69,6800,No,117,76
+33,Male,31,Healthcare,6.1,6,30,8,Normal,72,5000,No,125,80
+34,Male,31,Healthcare,7.7,7,75,6,Normal,70,8000,No,120,80
+37,Male,31,Healthcare,7.6,7,75,6,Normal,70,8000,No,120,80
+43,Male,31,Healthcare,7.8,7,75,6,Normal,70,8000,No,120,80
+49,Male,31,Healthcare,7.7,7,75,6,Normal,70,8000,Sleep Apnea,120,80
+50,Male,32,STEM_Education,7.5,8,45,3,Normal,70,8000,No,120,80
+52,Male,32,Healthcare,6.0,6,30,8,Normal,72,5000,No,125,80
+53,Male,32,Healthcare,7.6,7,75,6,Normal,70,8000,No,120,80
+56,Male,32,Healthcare,7.7,7,75,6,Normal,70,8000,No,120,80
+62,Male,32,Healthcare,6.2,6,30,8,Normal,72,5000,No,125,80
+66,Male,32,Corporate_Sales,7.2,8,50,6,Normal,68,7000,No,118,76
+67,Male,33,Healthcare,6.0,6,30,8,Normal,72,5000,Insomnia,125,80
+68,Female,33,STEM_Education,6.2,6,50,6,Above Normal,76,5500,No,128,85
+70,Male,33,Healthcare,6.1,6,30,8,Normal,72,5000,No,125,80
+74,Male,33,Healthcare,6.0,6,30,8,Normal,72,5000,No,125,80
+80,Female,34,STEM_Education,5.8,4,32,8,Above Normal,81,5200,Sleep Apnea,131,86
+82,Male,35,STEM_Education,6.7,7,40,5,Above Normal,70,5600,No,128,84
+84,Male,35,STEM_Education,7.5,8,60,5,Normal,70,8000,No,120,80
+85,Female,35,Corporate_Sales,7.2,8,60,4,Normal,68,7000,No,115,75
+86,Male,35,STEM_Education,7.2,8,60,4,Normal,65,5000,No,125,80
+88,Male,35,STEM_Education,7.3,8,60,4,Normal,65,5000,No,125,80
+93,Male,35,Corporate_Sales,7.4,7,60,5,Above Normal,84,3300,Sleep Apnea,135,88
+94,Female,36,Corporate_Sales,7.2,8,60,4,Normal,68,7000,Insomnia,115,75
+95,Female,36,Corporate_Sales,7.1,8,60,4,Normal,68,7000,No,115,75
+96,Female,36,Corporate_Sales,7.2,8,60,4,Normal,68,7000,No,115,75
+98,Female,36,STEM_Education,7.1,8,60,4,Normal,68,7000,No,115,75
+100,Female,36,STEM_Education,7.2,8,60,4,Normal,68,7000,No,115,75
+103,Male,36,STEM_Education,6.6,5,35,7,Above Normal,74,4800,Sleep Apnea,129,84
+104,Female,36,STEM_Education,7.2,8,60,4,Normal,68,7000,Sleep Apnea,115,75
+105,Male,36,STEM_Education,6.6,5,35,7,Above Normal,74,4800,Insomnia,129,84
+106,Female,37,Healthcare,6.1,6,42,6,Above Normal,77,4200,No,126,83
+107,Male,37,STEM_Education,7.8,8,70,4,Normal,68,7000,No,120,80
+109,Male,37,Corporate_Sales,7.4,8,60,5,Normal,68,8000,No,130,85
+110,Female,37,Corporate_Sales,7.2,8,60,4,Normal,68,7000,No,115,75
+125,Female,37,Healthcare,7.5,8,60,4,Normal,70,8000,No,120,80
+126,Male,38,Corporate_Sales,7.3,8,60,5,Normal,68,8000,No,130,85
+127,Female,38,Corporate_Sales,7.1,8,60,4,Normal,68,7000,No,115,75
+137,Male,38,Corporate_Sales,7.1,8,60,5,Normal,68,8000,No,130,85
+144,Male,38,Corporate_Sales,7.1,8,60,5,Normal,68,8000,Sleep Apnea,130,85
+145,Female,38,Corporate_Sales,7.4,7,60,5,Above Normal,84,3300,Sleep Apnea,135,88
+146,Male,39,Corporate_Sales,7.2,8,60,5,Normal,68,8000,Insomnia,130,85
+147,Male,39,STEM_Education,6.5,5,40,7,Above Normal,80,4000,Insomnia,132,87
+148,Female,39,Corporate_Sales,6.9,7,50,6,Normal,75,5500,No,128,85
+149,Female,39,Corporate_Sales,8.0,9,80,3,Normal,67,7500,No,115,78
+151,Male,39,Corporate_Sales,7.2,8,60,5,Normal,68,8000,No,130,85
+161,Female,40,Corporate_Sales,7.2,8,55,6,Normal,73,7300,No,119,77
+163,Male,40,Corporate_Sales,7.9,8,90,5,Normal,68,8000,No,130,85
+165,Male,41,Corporate_Sales,7.6,8,90,5,Normal,70,8000,Insomnia,130,85
+166,Male,41,STEM_Education,7.3,8,70,6,Normal,72,6200,No,121,79
+167,Male,41,Corporate_Sales,7.1,7,55,6,Above Normal,72,6000,No,125,82
+169,Male,41,Corporate_Sales,7.7,8,90,5,Normal,70,8000,No,130,85
+174,Male,41,Corporate_Sales,7.6,8,90,5,Normal,70,8000,No,130,85
+177,Male,42,Corporate_Sales,6.5,6,45,7,Above Normal,72,6000,Insomnia,130,85
+178,Male,42,Corporate_Sales,7.8,8,90,5,Normal,70,8000,No,130,85
+184,Female,42,STEM_Education,6.8,6,45,7,Above Normal,78,5000,Sleep Apnea,130,85
+186,Female,43,STEM_Education,6.7,7,45,4,Above Normal,65,6000,Insomnia,135,90
+187,Male,43,Corporate_Sales,6.3,6,45,7,Above Normal,72,6000,Insomnia,130,85
+189,Male,43,Corporate_Sales,6.5,6,45,7,Above Normal,72,6000,Insomnia,130,85
+191,Male,43,Corporate_Sales,6.4,6,45,7,Above Normal,72,6000,Insomnia,130,85
+201,Male,43,STEM_Education,7.8,8,90,5,Normal,70,8000,Insomnia,130,85
+203,Male,43,STEM_Education,6.9,6,47,7,Normal,69,6800,No,117,76
+204,Male,43,STEM_Education,7.6,8,75,4,Above Normal,68,6800,No,122,80
+205,Male,43,STEM_Education,7.7,8,90,5,Normal,70,8000,No,130,85
+209,Male,43,STEM_Education,7.8,8,90,5,Normal,70,8000,No,130,85
+218,Male,43,STEM_Education,7.8,8,90,5,Normal,70,8000,Sleep Apnea,130,85
+219,Male,43,Corporate_Sales,6.5,6,45,7,Above Normal,72,6000,Sleep Apnea,130,85
+220,Female,44,STEM_Education,6.6,7,45,4,Above Normal,65,6000,Insomnia,135,90
+221,Male,44,Corporate_Sales,6.4,6,45,7,Above Normal,72,6000,Insomnia,130,85
+222,Male,44,Corporate_Sales,6.3,6,45,7,Above Normal,72,6000,Insomnia,130,85
+237,Female,44,STEM_Education,6.5,7,45,4,Above Normal,65,6000,Insomnia,135,90
+247,Male,44,STEM_Education,6.8,7,45,7,Above Normal,78,5000,Insomnia,130,85
+248,Male,44,Corporate_Sales,6.4,6,45,7,Above Normal,72,6000,No,130,85
+249,Male,44,Corporate_Sales,6.5,6,45,7,Above Normal,72,6000,No,130,85
+250,Female,45,STEM_Education,6.8,7,30,6,Above Normal,65,6000,Insomnia,135,90
+252,Female,45,STEM_Education,6.5,7,45,4,Above Normal,65,6000,Insomnia,135,90
+256,Female,45,STEM_Education,6.6,7,45,4,Above Normal,65,6000,Insomnia,135,90
+261,Female,45,STEM_Education,6.6,7,45,4,Above Normal,65,6000,No,135,90
+263,Female,45,Corporate_Sales,6.9,7,55,5,Above Normal,75,5500,No,125,82
+264,Male,48,Healthcare,7.3,7,65,5,Above Normal,83,3500,Insomnia,142,92
+265,Female,48,Healthcare,5.9,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+267,Female,49,Healthcare,6.2,6,90,8,Above Normal,75,10000,No,140,95
+268,Female,49,Healthcare,6.0,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+269,Female,49,Healthcare,6.1,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+273,Female,49,Healthcare,6.2,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+276,Male,49,Healthcare,8.1,9,85,3,Above Normal,86,3700,Sleep Apnea,139,91
+278,Female,50,Healthcare,6.1,6,90,8,Above Normal,75,10000,Insomnia,140,95
+279,Female,50,STEM_Education,8.3,9,30,3,Normal,65,5000,No,125,80
+280,Female,50,Healthcare,6.0,6,90,8,Above Normal,75,10000,No,140,95
+281,Female,50,Healthcare,6.1,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+282,Female,50,Healthcare,6.0,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+298,Female,51,STEM_Education,8.5,9,30,3,Normal,65,5000,No,125,80
+302,Female,51,Healthcare,7.1,7,55,6,Normal,72,6000,No,125,82
+303,Female,51,Healthcare,6.0,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+304,Female,51,Healthcare,6.1,6,90,8,Above Normal,75,10000,Sleep Apnea,140,95
+306,Female,52,Corporate_Sales,6.5,7,45,7,Above Normal,72,6000,Insomnia,130,85
+308,Female,52,Corporate_Sales,6.6,7,45,7,Above Normal,72,6000,Insomnia,130,85
+312,Female,52,STEM_Education,8.4,9,30,3,Normal,65,5000,No,125,80
+315,Female,53,STEM_Education,8.3,9,30,3,Normal,65,5000,Insomnia,125,80
+316,Female,53,STEM_Education,8.5,9,30,3,Normal,65,5000,No,125,80
+318,Female,53,STEM_Education,8.4,9,30,3,Normal,65,5000,No,125,80
+324,Female,53,STEM_Education,8.3,9,30,3,Normal,65,5000,No,125,80
+332,Female,54,STEM_Education,8.4,9,30,3,Normal,65,5000,No,125,80
+338,Female,54,STEM_Education,8.5,9,30,3,Normal,65,5000,No,125,80
+339,Female,55,Healthcare,8.1,9,75,4,Above Normal,72,5000,Sleep Apnea,140,95
+341,Female,56,Healthcare,8.2,9,90,3,Normal,65,10000,No,118,75
+343,Female,57,Healthcare,8.1,9,75,3,Above Normal,68,7000,No,140,95
+344,Female,57,Healthcare,8.2,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
+349,Female,57,Healthcare,8.1,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
+352,Female,58,Healthcare,8.0,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
+358,Female,59,Healthcare,8.0,9,75,3,Above Normal,68,7000,No,140,95
+359,Female,59,Healthcare,8.1,9,75,3,Above Normal,68,7000,No,140,95
+360,Female,59,Healthcare,8.2,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
+364,Female,59,Healthcare,8.0,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
+366,Female,59,Healthcare,8.1,9,75,3,Above Normal,68,7000,Sleep Apnea,140,95
