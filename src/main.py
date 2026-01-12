@@ -6,18 +6,19 @@ from fastapi import FastAPI, HTTPException, status
 from contextlib import asynccontextmanager
 from pydantic import BaseModel, Field
 from pathlib import Path
+from .models import PatientInput, PredictionInput
 
 # --- CONFIGURAÇÃO DE CAMINHOS ---
 # BASE_DIR aponta para a raiz do projeto (/app no Docker)
 BASE_DIR = Path(__file__).resolve().parent.parent 
-MODEL_PATH = BASE_DIR / "analysis" / "model_health.pkl"
+MODEL_PATH = BASE_DIR / "model" / "model_health.pkl"
 DATA_PATH = BASE_DIR / "data" / "cleaned_health_data.csv" 
 DB_PATH = BASE_DIR / "health.db"
 
 # Variável global para o modelo
 model = None
 
-# --- CICLO DE VIDA (STARTUP RIGOROSO) ---
+# --- CICLO DE VIDA ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Iniciando Startup da Aplicação...")
@@ -69,38 +70,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Health API", lifespan=lifespan)
 
-# --- SCHEMAS ---
-
-# Modelo para INSERÇÃO (POST)
-class PatientInput(BaseModel):
-    Person_ID: int
-    Gender: str
-    Age: int
-    Occupation: str
-    # REQUISITO: "Validar Sleep Duration não permitir > 24 horas"
-    # O 'le=24' (less or equal) garante isso automaticamente
-    Sleep_Duration: float = Field(alias="Sleep Duration", le=24, gt=0) 
-    Quality_of_Sleep: int = Field(alias="Quality of Sleep", ge=1, le=10)
-    Physical_Activity_Level: int = Field(alias="Physical Activity Level")
-    Stress_Level: int = Field(alias="Stress Level", ge=1, le=10)
-    BMI_Category: str = Field(alias="BMI Category")
-    Blood_Pressure: str = Field(alias="Blood Pressure")
-    Heart_Rate: int = Field(alias="Heart Rate")
-    Daily_Steps: int = Field(alias="Daily Steps")
-    Sleep_Disorder: str | None = Field(default="No", alias="Sleep Disorder")
-
-# Modelo para PREDIÇÃO (ML)
-class PredictionInput(BaseModel):
-    age: int
-    gender: str          
-    sleep_duration: float
-    bmi_category: str    
-    heart_rate: int
-    daily_steps: int
-    blood_pressure: str 
-    quality_of_sleep: int 
-    physical_activity_level: int
-    stress_level: int
 
 # --- ENDPOINTS OPERACIONAIS (CRUD) ---
 
